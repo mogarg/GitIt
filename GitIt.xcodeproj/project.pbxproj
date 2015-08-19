@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43D66001B83829C005867DC /* EventCellNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43D65FF1B83829C005867DC /* EventCellNib.xib */; };
+		A43D66041B8482F2005867DC /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43D66031B8482F2005867DC /* DataModel.swift */; };
 		E42191271B7F4E6700F81648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42191261B7F4E6700F81648 /* AppDelegate.swift */; };
 		E42191291B7F4E6700F81648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42191281B7F4E6700F81648 /* ViewController.swift */; };
 		E421912C1B7F4E6700F81648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E421912A1B7F4E6700F81648 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43D65FF1B83829C005867DC /* EventCellNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCellNib.xib; sourceTree = "<group>"; };
+		A43D66031B8482F2005867DC /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		E42191211B7F4E6700F81648 /* GitIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42191251B7F4E6700F81648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E42191261B7F4E6700F81648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,8 +91,10 @@
 				E42191281B7F4E6700F81648 /* ViewController.swift */,
 				E421912A1B7F4E6700F81648 /* Main.storyboard */,
 				E421914A1B7F501400F81648 /* ServiceCall.swift */,
+				A43D66031B8482F2005867DC /* DataModel.swift */,
 				E42191481B7F4FD500F81648 /* EventObj.swift */,
 				E42191461B7F4F4B00F81648 /* EventCell.swift */,
+				A43D65FF1B83829C005867DC /* EventCellNib.xib */,
 				E421912D1B7F4E6700F81648 /* Images.xcassets */,
 				E421912F1B7F4E6700F81648 /* LaunchScreen.xib */,
 				E42191241B7F4E6700F81648 /* Supporting Files */,
@@ -201,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43D66001B83829C005867DC /* EventCellNib.xib in Resources */,
 				E421912C1B7F4E6700F81648 /* Main.storyboard in Resources */,
 				E42191311B7F4E6700F81648 /* LaunchScreen.xib in Resources */,
 				E421912E1B7F4E6700F81648 /* Images.xcassets in Resources */,
@@ -226,6 +233,7 @@
 				E421914B1B7F501400F81648 /* ServiceCall.swift in Sources */,
 				E42191491B7F4FD500F81648 /* EventObj.swift in Sources */,
 				E42191271B7F4E6700F81648 /* AppDelegate.swift in Sources */,
+				A43D66041B8482F2005867DC /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -363,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GitIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -381,6 +391,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = GitItTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitIt.app/GitIt";
@@ -396,6 +407,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = GitItTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitIt.app/GitIt";
@@ -421,6 +433,7 @@
 				E42191421B7F4E6700F81648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E42191431B7F4E6700F81648 /* Build configuration list for PBXNativeTarget "GitItTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +442,7 @@
 				E42191451B7F4E6700F81648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

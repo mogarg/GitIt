@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 Mohit. All rights reserved.
 //
 
-import Cocoa
+import Foundation
 
 class EventObj: NSObject {
-
+    var title: String = ""
+    var userName: String = ""
+    var repositoryName: String = ""
 }

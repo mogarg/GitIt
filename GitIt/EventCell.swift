@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 Mohit. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class EventCell: UITableViewCell {
 
+    @IBOutlet weak var userLabel: UILabel!
+    @IBOutlet weak var repoLabel: UILabel!
 }
